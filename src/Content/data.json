@@ -1,0 +1,94 @@
+{
+    "PopularArtists":[
+    {  
+        "Name": "A. R. Rahman",
+        "Dp": "Source/PopularArtists/icons/a-r-rahman.jpeg",
+        "Followers": "50k Followers"
+    },    
+    {  
+        "Name": "Shreya Ghosal",
+        "Dp": "Source/PopularArtists/icons/shreya_ghoshal.jpeg",
+        "Followers": "20k Followers"
+    }, 
+    {  
+        "Name": "Udit Narayanan",
+        "Dp": "Source/PopularArtists/icons/udit-narayan.png",
+        "Followers": "30k Followers"
+    }, 
+    {  
+        "Name": "Kumar Sanu",
+        "Dp": "Source/PopularArtists/icons/kumar-sanu.png",
+        "Followers": "40k Followers"
+    },
+    {  
+        "Name": "Devi Sri Prasad",
+        "Dp": "Source/PopularArtists/icons/devi_sri_prasad.jpeg",
+        "Followers": "20k Followers"
+    },
+    {  
+        "Name": "Benny Dayal",
+        "Dp": "Source/PopularArtists/icons/benny_dayal.jpeg",
+        "Followers": "30k Followers"
+    },
+    {  
+        "Name": "Harris Jayaraj",
+        "Dp": "Source/PopularArtists/icons/Harris-Jayaraj.png",
+        "Followers": "40k Followers"
+    },
+    {  
+        "Name": "Unnikrishnan",
+        "Dp": "Source/PopularArtists/icons/unnikrishnan.jpeg",
+        "Followers": "60k Followers"
+    },
+    {  
+        "Name": "Devi Sri Prasad",
+        "Dp": "Source/PopularArtists/icons/devi_sri_prasad.jpeg",
+        "Followers": "20k Followers"
+    },
+    {  
+        "Name": "Benny Dayal",
+        "Dp": "Source/PopularArtists/icons/benny_dayal.jpeg",
+        "Followers": "30k Followers"
+    },
+    {  
+        "Name": "Harris Jayaraj",
+        "Dp": "Source/PopularArtists/icons/Harris-Jayaraj.png",
+        "Followers": "40k Followers"
+    },
+    {  
+        "Name": "Unnikrishnan",
+        "Dp": "Source/PopularArtists/icons/unnikrishnan.jpeg",
+        "Followers": "60k Followers"
+    }
+    ],
+    "FeaturedVideos":[
+        {
+            "url":"https://www.youtube.com/watch?v=7sDY4m8KNLc",
+            "details":"react videoplayer"
+        },
+        {
+            "url":"https://www.youtube.com/watch?v=7sDY4m8KNLc",
+            "details":"react videoplayer"
+        },
+        {
+            "url":"https://www.youtube.com/watch?v=cGl2lI6thUc&t=276s",
+            "details":"kalyana malai song"
+        },
+        {
+            "url":"https://www.youtube.com/watch?v=sz77b-V0sfE",
+            "details":"sp balasubramaniam & janaki songs"
+        },
+        {
+            "url":"https://www.youtube.com/watch?v=hoZudNNviJk",
+            "details":"Munbe va en anbe va"
+        },
+        {
+            "url":"https://www.youtube.com/watch?v=FuFEUBAbX3c",
+            "details":"Nalam vala ennalum"
+        },
+        {
+            "url":"https://www.youtube.com/watch?v=CaL8m6VOdG0",
+            "details":"ilayaraja night sleeping songs"
+        }
+    ]
+}

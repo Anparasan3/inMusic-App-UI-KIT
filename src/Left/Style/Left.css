@@ -1,0 +1,51 @@
+/*     Left    */
+.Logo{
+    position: absolute;
+    left: 13.38%;
+    right: 42.14%;
+    top: 5.228%;
+    bottom: 81.69%;
+  }
+.LogoImage{
+  width: 40px;
+  image-resolution: auto;
+}
+.Icon{
+    background-color: auto;
+}
+.musicimage{
+    width: 40px;
+}
+.Text1{
+    width: 65%;
+    font-size: 16px;
+}
+.Text2{
+  width: 65%;
+  font-size: 12px;
+  color: rgb(102, 101, 101);
+}
+.Leftmenu{
+    position: absolute;
+    left: 13.38%;
+    right: 0.33%;
+    top: 19.60%;
+    bottom: 19.60%;
+}
+.leftMenuTable{
+    width: 100%;
+    font-size: 16px;
+}
+.leftMenuTableTd{
+    height: 30px;
+}
+  /* last icon setup */
+.playlist{
+    width: 20px;
+}
+.leftPlaylistAdd{
+  width: 20px;
+}
+.leftPlaylistText{
+  color: rgb(98, 99, 97);
+}

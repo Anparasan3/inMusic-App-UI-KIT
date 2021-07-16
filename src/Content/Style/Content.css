@@ -1,0 +1,169 @@
+/*  Right   */
+.Topmenu{
+    position: absolute;
+    top: 5.22%;
+    right: 2.66%;
+    bottom: 91.76%;
+    left: 6.13%;
+}
+.topMenuTable{
+    width: 100%;
+}
+.rightIcon{
+    width: 3%;
+}
+.topSearchBar{
+    width: 65%;
+    padding-top:0%;
+    /* padding-bottom: 5px; */
+    /* border-color: transparent; */
+}
+.topEmpty{
+    width: 22%;
+}
+.button{
+  width: 24px;
+}
+.searchicon{
+    width: 20px;
+}
+.settingsicon{
+    width: 23px;
+}
+.bellicon{
+    width: 20px;
+}
+.searchBoxStyle{
+    border-radius: 100px;
+    width: 400px;
+    background-color: transparent;
+    border-color: transparent;
+}
+  /* 2 table feature content */
+.featuredVideos{
+  position: absolute; 
+  top: 12.12%;
+  right: 31.18%;
+  bottom: 6.04%;
+  left: 6.13%;
+}
+.background{
+  width: 100%;
+  display: block;
+}
+.topcontent{
+  position: absolute;
+  height: 10%;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+  padding-left: 20px;
+}
+.topcontentTable1Td{
+  width: 95%;
+}
+.topcontentTable2Td{
+    width: 5%;
+}
+.threeDot{
+    width: 31px;
+    padding-right: 0%;
+}
+.overflow{
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    overflow: auto;
+    top: 60px;
+}
+  /* using grid */
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    overflow: auto;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+  }
+  .grid-item {
+    /* border: 1px solid rgba(248, 245, 245, 0.8); */
+    width: 85%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    font-size: 15px;
+  }
+  
+  
+  
+  /*   right 3rd box  */
+  .popularartists{
+    position: absolute;
+    top: 12.12%;
+    right: 4.38%;
+    bottom: 10.45%;
+    left: 70.63%;
+  }
+  .totalTableSpace{
+    width: 100%;
+    right: 0%;
+    top: 0%;
+  }
+  .popularArtistsTable1Td{
+    width: 65%;
+  }
+  .popularArtistsTable2Td{
+    width: 35%;
+  }
+  .totalTableSpace2{
+    width: 100%;
+    right: 0%;
+    padding-top: 28px;
+  }
+  .thirdTable{
+    position: absolute;
+    height: 10%;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+  }
+  .insideTable1{
+    position: absolute;
+    width:60px;
+  }
+  .insideTable2{
+    width: 50%;
+    height: 60px;
+   }
+  .insideTable3{
+    position: absolute;
+    width: 20%;
+    height: 60px;
+    right: 0%;
+   }
+  .profile{
+    width: 50px;
+    border-radius: 100%;
+  }   
+  .dot{
+    width: 30px;
+    margin-top: 20px;
+    border-color: black;
+  }
+  .overflow2{
+    position: absolute;
+    right: 0%;
+    left: 0%;
+    top: 10%;
+    bottom: 0%;
+    overflow: auto;
+  }
+  .lighttext{
+    color:rgb(77, 76, 76)
+  }
