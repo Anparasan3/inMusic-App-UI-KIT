@@ -30,7 +30,7 @@ export default function PopularArtists(props){
                         data.PopularArtists.slice(0,NoOfPopularArtists).map((a) => {
                         return(
                             <div className="container2">
-                                <div> <img src={a.Dp} className="profile" alt="" /> </div>
+                                <div> <img src={a.Dp} className="profile" alt="hai" /> </div>
                                 <div className="PopularArtistsName">
                                     <div className="PopularArtistsFirstName"> {a.Name} </div>
                                     <div className="PopularArtistsFollowers"> {a.Followers} </div>
@@ -108,3 +108,13 @@ export default function PopularArtists(props){
 //     </div>
 // );
 // }
+
+
+
+
+
+
+
+  // "homepage": "https://Anparasan3.github.io/inMusic-App-UI-Kit",
+  // "predeploy": "npm run build",
+  //  "deploy": "gh-pages -d build",
