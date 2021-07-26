@@ -61,34 +61,144 @@
         "Followers": "60k Followers"
     }
     ],
+
     "FeaturedVideos":[
         {
             "url":"https://www.youtube.com/watch?v=7sDY4m8KNLc",
-            "details":"react videoplayer"
+            "title":"React videoplayer",
+            "description":"song1 description"
         },
         {
             "url":"https://www.youtube.com/watch?v=7sDY4m8KNLc",
-            "details":"react videoplayer"
+            "title":"React videoplayer",
+            "description":"song2 description"
+        },
+        {
+            "url":"https://www.youtube.com/watch?v=mZvKPtH9Fzo",
+            "title":"Search box video",
+            "description":"song3 description"
         },
         {
             "url":"https://www.youtube.com/watch?v=cGl2lI6thUc&t=276s",
-            "details":"kalyana malai song"
+            "title":"Kalyana malai song",
+            "description":"song4 description"
         },
         {
             "url":"https://www.youtube.com/watch?v=sz77b-V0sfE",
-            "details":"sp balasubramaniam & janaki songs"
+            "title":"Sp balasubramaniam & janaki songs",
+            "description":"song5 description"
         },
         {
             "url":"https://www.youtube.com/watch?v=hoZudNNviJk",
-            "details":"Munbe va en anbe va"
+            "title":"Munbe va en anbe va",
+            "description":"song6 description"
         },
         {
             "url":"https://www.youtube.com/watch?v=FuFEUBAbX3c",
-            "details":"Nalam vala ennalum"
+            "title":"Nalam vala ennalum",
+            "description":"song7 description"
         },
         {
             "url":"https://www.youtube.com/watch?v=CaL8m6VOdG0",
-            "details":"ilayaraja night sleeping songs"
+            "title":"Ilayaraja night sleeping songs",
+            "description":"song7 description"
+        }
+    ],
+
+    "Toplists":[
+        {
+            "image":"Source/Content/newImg6.jpeg",
+            "tittle":"song1 Title",
+            "description":"song1 description"
+        },
+        {
+            "image":"Source/Content/newImg2.jpeg",
+            "tittle":"song2 Title",
+            "description":"song2 description"
+        },        
+        {
+            "image":"Source/Content/newImg8.jpeg",
+            "tittle":"song3 Title",
+            "description":"song3 description"
+        },
+        {
+            "image":"Source/Content/newImg9.jpeg",
+            "tittle":"song4 Title",
+            "description":"song4 description"
+        },
+        {
+            "image":"Source/Content/newImg10.jpeg",
+            "tittle":"song5 Title",
+            "description":"song5 description"
+        },
+        {
+            "image":"Source/Content/newImg11.jpeg",
+            "tittle":"song6 Title",
+            "description":"song6 description"
+        },
+        {
+            "image":"Source/Content/newImg12.jpeg",
+            "tittle":"song7 Title",
+            "description":"song7 description"
+        },
+        {
+            "image":"Source/Content/newImg14.jpeg",
+            "tittle":"song8 Title",
+            "description":"song8 description"
+        },
+        {
+            "image":"Source/Content/newImg18.jpeg",
+            "tittle":"song9 Title",
+            "description":"song9 description"
+        },
+        {
+            "image":"Source/Content/newImg19.jpeg",
+            "tittle":"song10 Title",
+            "description":"song10 description"
+        }
+    ],
+
+
+    "new":[
+        {
+            "image":"Source/Content/newImg1.jpeg",
+            "tittle":"song1"
+        },
+        {
+            "image":"Source/Content/newImg4.jpeg",
+            "tittle":"song2"
+        },
+        {
+            "image":"Source/Content/newImg15.jpeg",
+            "tittle":"song3"
+        },        
+        {
+            "image":"Source/Content/newImg5.jpeg",
+            "tittle":"song4"
+        },
+        {
+            "image":"Source/Content/newImg7.jpeg",
+            "tittle":"song5"
+        },        
+        {
+            "image":"Source/Content/newImg13.jpeg",
+            "tittle":"song6"
+        },        
+        {
+            "image":"Source/Content/newImg3.jpeg",
+            "tittle":"song7"
+        },        
+        {
+            "image":"Source/Content/newImg16.jpeg",
+            "tittle":"song8"
+        },
+        {
+            "image":"Source/Content/newImg17.jpeg",
+            "tittle":"song9"
+        },        
+        {
+            "image":"Source/Content/newImg20.jpeg",
+            "tittle":"song10"
         }
     ]
 }

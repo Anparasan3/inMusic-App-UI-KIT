@@ -10,7 +10,8 @@
     width: 100%;
 }
 .rightIcon{
-    width: 3%;
+  width: 3%;
+  cursor: pointer;
 }
 .topSearchBar{
     width: 65%;
@@ -35,10 +36,17 @@
 }
 .searchBoxStyle{
     border-radius: 100px;
-    width: 400px;
+    width: 100%;
+    height: auto;
     background-color: transparent;
     border-color: transparent;
 }
+.searchBoxStyle:focus{
+  outline: none;
+}
+
+
+
   /* 2 table feature content */
 .featuredVideos{
   position: absolute; 
@@ -51,9 +59,9 @@
   width: 100%;
   display: block;
 }
-.topcontent{
-  position: absolute;
-  height: 10%;
+
+/* .topcontent{
+  height: 5%;
   top: 0%;
   left: 0%;
   right: 0%;
@@ -61,109 +69,313 @@
 }
 .topcontentTable1Td{
   width: 95%;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 33px;
+  letter-spacing: -0.375px;
 }
 .topcontentTable2Td{
-    width: 5%;
-}
+  width: 5%;
+  right: 0%;
+} 
 .threeDot{
-    width: 31px;
-    padding-right: 0%;
+  width: 31px;
+  padding-right: 0%;
+  cursor: pointer;
+  color: #7A8FA6;
+}
+*/
+
+.topContentBox{
+  display: grid;
+  grid-template-columns: 95% 5%;
+}
+.topContentTitle{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 33px;
+  letter-spacing: -0.375px;
+  padding-left: 25px;
+}
+.topContentOption{
+  color: #7A8FA6;
+  font-size: 25px;
+  cursor: pointer;
 }
 .overflow{
-    position: absolute;
-    width: 100%;
-    height: 90%;
-    bottom: 0%;
-    left: 0%;
-    right: 0%;
-    overflow: auto;
-    top: 60px;
+  position: absolute; 
+  width: 100%;
+  height: 90%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+  top: auto;
 }
-  /* using grid */
-  .grid-container {
-    display: grid;
-    grid-template-columns: auto auto;
-    overflow: auto;
-    position: absolute;
-    left: 0%;
-    right: 0%;
-    top: 0%;
-    bottom: 0%;
+.SongImage{
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+}
+.SongsTitle{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: -0.3px;
+  padding-left: 10px;
+}
+.SongsDescription{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 23px;
+  letter-spacing: -0.3px;
+  color: #596675;
+  padding-left: 10px;
+}
+.FeaturedVideosTitle{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: -0.3px;
+  padding-left: 10px;
+}
+/* using grid */
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  overflow: auto;
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  border: 1px;
+  border-color: black;
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+}
+.grid-item {
+  /* border: 1px solid rgba(248, 245, 245, 0.8); */
+  width: auto;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* margin-bottom: 30px; */
+  font-size: 15px;
+  border: 1px;
+  border-color: black;
+}
+@media only screen and (max-width:550px){
+  .grid-container{
+    grid-template-columns: 1fr;
   }
-  .grid-item {
-    /* border: 1px solid rgba(248, 245, 245, 0.8); */
-    width: 85%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 30px;
-    font-size: 15px;
-  }
+}
   
+
+
   
   
   /*   right 3rd box  */
-  .popularartists{
-    position: absolute;
-    top: 12.12%;
-    right: 4.38%;
-    bottom: 10.45%;
-    left: 70.63%;
+.popularartists{
+  position: absolute;
+  top: 12.12%;
+  right: 4.38%;
+  bottom: 10.45%;
+  left: 70.63%;
+}
+.totalTableSpace1{
+  width: 100%;
+  right: 0%;
+  top: 0%;
+}
+.popularArtistsTable1Td{
+  width: 65%;
+}
+.popularArtistsTable2Td{
+  width: 35%;
+  text-align: right;
+  cursor: pointer;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 23px;
+  letter-spacing: -0.3px;
+  color: #596675;
+}
+.totalTableSpace2{
+  width: 100%;
+  right: 0%;
+  padding-top: 28px;
+  display: grid;
+  grid-template-columns: auto
+}
+.thirdTable{
+  position: absolute;
+  height: 10%;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+}
+.insideTable1{
+  width: 22%;
+}
+.insideTable2{
+  padding-left: 5%;
+  width: 60%;
+}
+.insideTable3{
+  width: auto;
+} 
+.profile{
+  width: 100%;
+  height: auto;
+  border-radius: 100%;
+}   
+.overflow2{
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  top: 10%;
+  bottom: 0%;
+  overflow: auto;
+}
+.lighttext{
+  color:#596675;
+}
+.ContentThreeDots{
+  padding-bottom: 21%;
+  cursor: pointer;
+  float: right;
+  color: #7A8FA6;
+}
+
+
+
+.container1{
+  display: grid;
+  grid-template-columns: 60% 40%;
+  /* margin-top: 20px; */
+}
+.PopolarArtistsHeading{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 33px;
+  letter-spacing: -0.375px;
+}
+.PopularArtistsShowmore{
+  padding-top: 6px;
+  text-align: right;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 23px;
+  letter-spacing: -0.3px;
+  color: #596675;
+}
+@media only screen and (max-width:400px){
+  .container2{
+    grid-template-columns: 1fr;
+    padding-bottom: 100px;
   }
-  .totalTableSpace{
-    width: 100%;
-    right: 0%;
-    top: 0%;
+  .PopularArtistsShowmore{
+    text-align: left;
   }
-  .popularArtistsTable1Td{
-    width: 65%;
+}
+
+
+.container2{
+  display: grid;
+  grid-template-columns: 21%  62% 17%;
+  margin-top: 8px;
+}
+.PopularArtistsName{
+  padding-top: 8%;
+  padding-left: 10%;
+}
+.PopularArtistsFirstName{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 23px;
+  letter-spacing: -0.2625px;
+}
+.PopularArtistsFollowers{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 19px;
+  letter-spacing: -0.257143px;
+  color: #596675;
+}
+/* @media only screen and (max-width: 350px){
+  .container{
+    grid-template-columns: auto;
+    margin-top: 0px;
   }
-  .popularArtistsTable2Td{
-    width: 35%;
+  .ContentThreeDots{
+    padding-bottom: 1%;
+    padding-left: 10%;
   }
-  .totalTableSpace2{
-    width: 100%;
-    right: 0%;
-    padding-top: 28px;
-  }
-  .thirdTable{
-    position: absolute;
-    height: 10%;
-    top: 0%;
-    left: 0%;
-    right: 0%;
-  }
-  .insideTable1{
-    position: absolute;
-    width:60px;
-  }
-  .insideTable2{
-    width: 50%;
-    height: 60px;
-   }
-  .insideTable3{
-    position: absolute;
-    width: 20%;
-    height: 60px;
-    right: 0%;
-   }
-  .profile{
-    width: 50px;
-    border-radius: 100%;
-  }   
-  .dot{
-    width: 30px;
-    margin-top: 20px;
-    border-color: black;
-  }
-  .overflow2{
-    position: absolute;
-    right: 0%;
-    left: 0%;
-    top: 10%;
-    bottom: 0%;
-    overflow: auto;
-  }
-  .lighttext{
-    color:rgb(77, 76, 76)
-  }
+} */
+
+
+/*   ---- PopularArtists PortraitMode ----   */
+.PopolarArtistsHeadingPortraitMode{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 23px;
+  letter-spacing: -0.375px;
+  text-align: center;
+}
+.PopularArtistsShowmorePortraitMode{
+  text-align: center;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 13px;
+  letter-spacing: -0.3px;
+  color: #596675;
+}
+.containerPortraitMode{
+  display: grid;
+  grid-template-columns: auto;
+}
+.PopularArtistsFirstNamePortraitMode{
+  text-align: center;
+}
+.PopularArtistsFollowersPortraitMode{
+  text-align: center;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 19px;
+  letter-spacing: -0.257143px;
+  color: #596675;
+}
+.profilePortraitMode{
+  padding-left: 15%;
+  padding-right: 15%;
+  width: 70%;
+  border-radius: 100%;
+}  
+/*  ------ ****** ------  */

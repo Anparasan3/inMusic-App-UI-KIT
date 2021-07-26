@@ -1,0 +1,89 @@
+{
+    "Left":[
+        {
+            "id":"1",
+            "leftTitle": "Podcasts",
+            "icons":{
+                "leftIconLight" : "/Source/Left/icons/PodcastsIconLight.png",
+                "leftIconDark" : "/Source/Left/icons/PodcastsIconDark.png",
+                "leftIconPink" : "/Source/Left/icons/PodcastsIconPink.png"
+            },
+            "defaultIcons":{
+                "leftIconLight":"/Source/DefaultIcons/PodcastsIconLigth.png",
+                "leftIconDark":"/Source/DefaultIcons/PodcastsIconDark.png",
+                "leftIconPink":"/Source/DefaultIcons/PodcastsIconPink.png"
+            }
+        },
+        {
+            "id":"2",
+            "leftTitle": "Videos",
+            "icons":{
+                "leftIconLight" : "/Source/Left/icons/VideoIconLight.png",
+                "leftIconDark" : "/Source/Left/icons/VideoIconDark.png",
+                "leftIconPink" : "/Source/Left/icons/VideoIconPink.png"
+            }
+        },
+        {
+            "id":"3",
+            "leftTitle": "Toplists",
+            "icons":{
+                "leftIconLight" : "/Source/Left/icons/TopListsIconLight.png",
+                "leftIconDark" : "/Source/Left/icons/TopListsIconDark.png",
+                "leftIconPink" : "/Source/Left/icons/TopListsIconPink.png"
+            }
+        },
+        {
+            "id":"4",
+            "leftTitle": "Discover",
+            "icons":{
+                "leftIconLight" : "/Source/Left/icons/DiscoverIconLight.png",
+                "leftIconDark" : "/Source/Left/icons/DiscoverIconDark.png",
+                "leftIconPink" : "/Source/Left/icons/DiscoverIconPink.png"
+            }
+        },
+        {
+            "id":"5",
+            "leftTitle": "Favourites",
+            "icons":{
+                "leftIconLight" : "/Source/Left/icons/FavouritiesIconLight.png",
+                "leftIconDark" : "/Source/Left/icons/FavouritiesIconDark.png",
+                "leftIconPink" : "/Source/Left/icons/FavouritiesIconPink.png"
+            }
+        },
+        {
+            "id":"6",
+            "leftTitle": "Messages",
+            "icons":{
+                "leftIconLight" : "/Source/Left/icons/MessageIconLight.png",
+                "leftIconDark" : "/Source/Left/icons/MessageIconDark.png",
+                "leftIconPink" : "/Source/Left/icons/MessageIconPink.png"
+            }
+        },
+        {
+            "id":"7",
+            "leftTitle": "Playlists",
+            "icons":{
+                "leftIconLight" : "/Source/Left/icons/PlaylistsIconLight.png",
+                "leftIconDark" : "/Source/Left/icons/PlaylistsIconDark.png",
+                "leftIconPink" : "/Source/Left/icons/PlaylistsIconPink.png",
+                "leftIconAddLight" : "/Source/Left/icons/AddIconLight.png",
+                "leftIconAddDark" : "/Source/Left/icons/AddIconDark.png",
+                "leftIconAddPink" : "/Source/Left/icons/AddIconPink.png"
+            }
+        }
+    ],
+    "Playlist":[
+        {
+            "subText": "Summer Vibes"
+        },
+        {
+            "subText": "Chil Out"
+        },
+        {
+            "subText": "Clasic Rock"
+        },
+        {
+            "subText": "Kids Music"
+        }
+    ]
+}
